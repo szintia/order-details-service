@@ -3,6 +3,10 @@ server:
   application:
     order-details-service
 
+spring:
+  application:
+    name: order-details-service
+
 springdoc:
   api-docs:
     path: '/api-docs'
